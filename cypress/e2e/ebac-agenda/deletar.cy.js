@@ -6,6 +6,6 @@ describe('Testes para a agenda', () => {
     })
 
     it('Deve deletar o contato', () => {
-        cy.get('.deletar')
+        cy.get(':nth-child(2) > .sc-gueYoa > .delete').click()
     })
 })
